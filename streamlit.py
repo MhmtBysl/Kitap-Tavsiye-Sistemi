@@ -10,7 +10,7 @@ st.set_page_config(layout = "wide", page_title="Book Recommender", page_icon=(":
 
 @st.cache_data
 def get_data():
-    dataframe = pd.read_csv('Proje/Books.csv')
+    dataframe = pd.read_csv('Books.csv')
     return dataframe
 
 def get_data2():
